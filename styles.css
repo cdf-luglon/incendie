@@ -55,13 +55,13 @@
   /* --- Couleurs (noms historiques conservés) --- */
   --bg: #ffffff;
   --card: #ebebeb;
-  --text: #0f1724;              /* Noir foncé */
+  --text: #0f1724;               /* Noir foncé */
   --muted: #6b7280;
-  --tab-font: #e9f2ee;
-  --tab-border : #ccc;
+  --tab-font: #fff3e0;           /* Teinte légèrement crème/chaude pour remplacer le blanc verdâtre */
+  --tab-border: #ccc;
   --form-bg: #ffffff;
   --text-shadow: #0000001a;
-  --luglon-green: #166136;
+  --luglon-green: #e34430;       /* Rouge-braise principal (surface, boutons) */
   --resa-shadow: #00000080;
 
   --accent: var(--luglon-green);
@@ -73,27 +73,22 @@
   --sending-border: #e65100;
   --error-bg: #ffebee;
   --error-border: #c62828;
-  --success-bg: #e8f5e9;
-  --success-border: #2e7d32;
+  --success-bg: #fff8e1;         /* Jaune flamme doux */
+  --success-border: #f7c937;     /* Jaune vif */
 
-  /* Alerte / attention — volontairement en rupture avec le vert de marque */
-  --alert: #c62828;
+  /* Alerte / attention */
+  --alert: #b71c1c;
 
-  /* VERT DE TEXTE — à utiliser pour tout titre ou libellé écrit en vert.
-     --luglon-green est le vert des SURFACES (boutons, filets, fonds) : il est
-     conçu pour porter du texte blanc. Employé comme couleur d'encre sur le
-     fond sombre (#1a1a1a), il tombe à 2,2:1, très en dessous du minimum de
-     4,5:1. --green-ink suit donc le thème : vert de marque en clair, vert
-     clair en sombre. Les deux tiennent ~9,7:1 sur leur fond respectif. */
-  --green-ink: #166136;
+  /* ROUGE/ORANGE DE TEXTE — lisible avec contraste fort */
+  --green-ink: #c8321e;
 
-  /* Déclinaisons du vert de marque (dérivées de --luglon-green) */
-  --green-050: #f2f8f4;
-  --green-100: #dcebe2;
-  --green-700: #0f4a28;
-  --green-tint-08: rgba(22, 97, 54, 0.08);
-  --green-tint-16: rgba(22, 97, 54, 0.16);
-  --green-tint-24: rgba(22, 97, 54, 0.24);
+  /* Déclinaisons de teinte braise / feu */
+  --green-050: #fff5f2;          /* Voile rouge/orange très léger */
+  --green-100: #ffe3dc;          /* Fond d'accent pastel chaud */
+  --green-700: #a82415;          /* Rouge sombre pour hover / accentuation */
+  --green-tint-08: rgba(227, 68, 48, 0.08);
+  --green-tint-16: rgba(227, 68, 48, 0.16);
+  --green-tint-24: rgba(227, 68, 48, 0.24);
 
   /* --- Polices --- */
   --font-body: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
