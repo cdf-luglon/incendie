@@ -138,14 +138,14 @@
 
   /* --- Ombres (contact serré + ambiant large + liseré intérieur) --- */
   --rim-top: inset 0 1px 0 rgba(255, 255, 255, 0.75);
-  --shadow-s: 0 1px 2px rgba(9, 30, 18, 0.08),
-              0 2px 6px rgba(9, 30, 18, 0.06);
-  --shadow-m: 0 1px 2px rgba(9, 30, 18, 0.08),
-              0 8px 24px -6px rgba(9, 30, 18, 0.14);
-  --shadow-l: 0 2px 4px rgba(9, 30, 18, 0.10),
-              0 18px 48px -12px rgba(9, 30, 18, 0.22);
-  --shadow-nav: 0 1px 2px rgba(9, 30, 18, 0.06),
-                0 8px 30px -8px rgba(9, 30, 18, 0.18);
+  --shadow-s: 0 1px 2px rgba(38, 14, 10, 0.08),
+              0 2px 6px rgba(38, 14, 10, 0.06);
+  --shadow-m: 0 1px 2px rgba(38, 14, 10, 0.08),
+              0 8px 24px -6px rgba(38, 14, 10, 0.14);
+  --shadow-l: 0 2px 4px rgba(38, 14, 10, 0.10),
+              0 18px 48px -12px rgba(38, 14, 10, 0.22);
+  --shadow-nav: 0 1px 2px rgba(38, 14, 10, 0.06),
+                0 8px 30px -8px rgba(38, 14, 10, 0.18);
   --shadow-focus: 0 0 0 3px var(--green-tint-24);
 
   /* --- Verre (voir la règle A en tête de fichier) --- */
@@ -215,18 +215,19 @@
     --muted: #a1a1a1;
     --tab-font: #222222;
     --form-bg: #222222;
-    --text-shadow: #16613680;
-    --tab-border : #444444;
+    --text-shadow: #e3443080;   /* Halo rouge feu chaud */
+    --tab-border: #444444;
     --resa-shadow: #000000cc;
 
-    /* Voir le commentaire de --green-ink dans :root */
-    --green-ink: #6bd698;
+    /* JAUNE/ORANGE FLAMME — contraste élevé (> 9:1) sur fond sombre #1a1a1a */
+    --green-ink: #f7c937;
 
-    --green-050: #10251a;
-    --green-100: #16321f;
-    --green-tint-08: rgba(107, 214, 152, 0.10);
-    --green-tint-16: rgba(107, 214, 152, 0.18);
-    --green-tint-24: rgba(107, 214, 152, 0.28);
+    /* Déclinaisons de braise sombre */
+    --green-050: #261411;       /* Fond teinté braise très sombre */
+    --green-100: #3b1b16;       /* Fond d'accent sombre */
+    --green-tint-08: rgba(247, 201, 55, 0.10);
+    --green-tint-16: rgba(247, 201, 55, 0.18);
+    --green-tint-24: rgba(247, 201, 55, 0.28);
 
     /* Le liseré est un token : toutes les ombres qui le référencent suivent */
     --rim-top: inset 0 1px 0 rgba(255, 255, 255, 0.10);
