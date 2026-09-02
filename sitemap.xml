@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- /programme/ n'est volontairement plus listé : c'est désormais une page de
-     redirection en noindex vers /evenements/fetes-de-luglon/. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cdf-luglon.fr/</loc>
