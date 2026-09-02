@@ -8,44 +8,14 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://cdf-luglon.fr/evenements/</loc>
+    <loc>https://cdf-luglon.fr/informations/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://cdf-luglon.fr/evenements/fetes-de-luglon/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://cdf-luglon.fr/evenements/concours-de-belote/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cdf-luglon.fr/evenements/carnaval/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://cdf-luglon.fr/comite/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cdf-luglon.fr/galerie/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cdf-luglon.fr/contact/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://cdf-luglon.fr/reservation/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://cdf-luglon.fr/confidentialite/</loc>
