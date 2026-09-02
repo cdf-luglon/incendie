@@ -68,7 +68,11 @@
   //
   // Doit rester cohérent avec `animation-range` de la branche CSS native
   // (section 18 de styles.css) : les deux décrivent le MÊME moment.
-  }, { threshold: 0.05, rootMargin: '0px 0px -22% 0px' });
+  
+  const isSmallScreen = window.matchMedia('(max-width: 859px)').matches;
+  const bottomMargin = isSmallScreen ? '-4%' : '-22%';
+
+  }, { threshold: 0.05, rootMargin: '0px 0px ' + bottomMargin + ' 0px' });
 
   els.forEach(function (el) { io.observe(el); });
 

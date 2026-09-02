@@ -3261,36 +3261,18 @@ main:has(> .page-section--footer-band:last-child) + .site-footer {
       opacity: 1;
       animation: reveal-in linear both;
       animation-timeline: view();
-      /* DÉCLENCHEMENT RETARDÉ, DURÉE INCHANGÉE.
-         Avant : `entry 8% cover 26%`. L'animation démarrait dès que le bloc
-         effleurait le bas de l'écran et se terminait alors qu'il y était
-         encore : on ne la voyait jamais, elle était finie quand le bloc
-         arrivait dans la zone de lecture.
-
-         Maintenant `cover 18% cover 40%` : même AMPLITUDE (22 points de
-         « cover », contre ~24 auparavant — donc la vitesse ne change pas),
-         mais décalée d'environ 16 points plus loin dans la descente. Le bloc
-         a le temps de monter dans le tiers inférieur avant de s'animer.
-
-         Les deux bornes sont exprimées dans la MÊME phase (`cover`) : mélanger
-         `entry` et `cover`, comme avant, rendait l'amplitude réelle impossible
-         à évaluer sans connaître la hauteur de chaque élément.
-
-         Doit rester cohérent avec le rootMargin de scroll-animations.js :
-         les deux décrivent le même moment, pour deux moteurs différents. */
       animation-range: cover 18% cover 40%;
     }
-    /* Mêmes @keyframes que la branche IntersectionObserver ci-dessus. */
+    /* Sur écran mobile : déclenchement immédiat dès que le haut du bloc touche le bas de l'écran */
+    @media (max-width: 859px) {
+      .reveal-css [data-reveal] {
+        animation-range: entry 0% cover 25%;
+      }
+    }
     @media (min-width: 760px) {
       .reveal-css [data-reveal="left"]  { animation-name: fadeInLeft; }
       .reveal-css [data-reveal="right"] { animation-name: fadeInRight; }
     }
-    /* La neutralisation dans les rails est bornée à < 900px, comme son
-       homologue de la branche IntersectionObserver plus haut. Sans cette
-       borne, elle coupait aussi les apparitions AU-DESSUS de 900px, là où
-       .day-rail n'est plus un rail mais une grille : les cartes du programme
-       n'avaient donc aucune animation sur Chrome et Safari — les deux
-       navigateurs qui prennent justement en charge animation-timeline. */
     @media (max-width: 899px) {
       .reveal-css .rail > [data-reveal] {
         animation: none;
