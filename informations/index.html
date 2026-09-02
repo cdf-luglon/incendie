@@ -83,11 +83,8 @@
 
     <div class="main-hero" id="contenu">
         <div class="hero-content">
-            <h1 class="main-title">FÊTES DE LUGLON</h1>
-            <p class="main-subtitle">Le grand rendez-vous de l'été</p>
-            <div class="cta-row">
-                <a class="btn btn--ghost" href="/evenements/">← Tous les évènements</a>
-            </div>
+            <h1 class="main-title">INFORMATIONS</h1>
+            <p class="main-subtitle">Mise à jour : Mardi 1<sup>er</sup> Septembre 2026</p>
         </div>
         <!-- MOBILE : le dessin n'est pas seulement masqué, il n'est PAS
              TÉLÉCHARGÉ. Un simple display:none ne suffit pas — le
@@ -117,88 +114,36 @@
             <span class="decor-vine decor-vine--left" aria-hidden="true"><span class="decor-vine__ink"></span></span>
             <span class="decor-vine decor-vine--right" aria-hidden="true"><span class="decor-vine__ink"></span></span>
             <div class="section-head" data-reveal>
-                <p class="kicker">Prochaine édition</p>
-                <h2>Été 2027</h2>
+                <p class="kicker">Incendie de Luglon</p>
+                <h2>Point de situation</h2>
             </div>
             <!-- Chapô + pastilles plutôt que deux paragraphes pleine largeur :
                  l'énumération des animations se balaye du regard au lieu de se
                  lire, et le corps restant tient en trois lignes. -->
             <p class="lead lead--rule" data-reveal>
-                Quatre jours, du jeudi au dimanche, à la charnière entre
-                juillet et août.
+                L'incendie de Luglon est maîtrisé, mais l'accès forestier reste interdit au public par arrêté.
             </p>
-
-            <ul class="tag-list" data-reveal>
-                <li>Loto bingo</li>
-                <li>Ball-trap</li>
-                <li>Course landaise</li>
-                <li>Bandas</li>
-                <li>Repas sous les chapiteaux</li>
-                <li>Messe en musique</li>
-                <li>Pétanque</li>
-                <li>Feu d'artifice</li>
-            </ul>
 
             <div class="prose" data-reveal>
                 <p>
-                    Le programme change à la marge d'une année sur l'autre ;
-                    l'esprit, lui, ne bouge pas.
+                    La situation sur le massif forestier de la commune de Luglon reste stabilisée. Après le violent sinistre du mois d'août, les opérations d'extinction active sont terminées, mais le secteur demeure sous étroite vigilance des services de secours pour surveiller les fumerolles et les souches incandescentes.
+                    Conformément à l'arrêté préfectoral pris le 22 août, l'accès au massif forestier incendié est strictement interdit à toute personne non autorisée. Les risques de chutes d'arbres fragilisés, de reprise thermique et d'effondrement de cavités souterraines restent élevés.
+                    Les RD 327 et RD 14 sont praticables, mais les pistes et chemins forestiers menant aux zones sinistrées sont formellement fermés à la circulation piétonne et véhiculaire.
+                    Les habitants évacués ont tous regagné leur logement, et le dispositif de crise en préfecture a été levé.
+                    Gilles Clavreul, préfet des Landes, rappelle avec fermeté que le non-respect des interdictions d'accès expose à des sanctions et compromet la sécurité des équipes toujours mobilisées sur place. Il est expressément demandé à la population d'éviter l'ensemble du périmètre sinistré.
                 </p>
                 <p>
-                    Les dates et le détail de la prochaine édition seront publiés ici
-                    au printemps. Pour ne rien manquer, suivez-nous sur
-                    <a href="https://www.facebook.com/p/Comit%C3%A9-des-f%C3%AAtes-de-Luglon-100083680651271/" target="_blank" rel="noopener noreferrer">Facebook</a>
-                    ou <a href="https://www.instagram.com/cdfluglon/" target="_blank" rel="noopener noreferrer">Instagram</a>.
+                    Pour suivre les informations publiées par la Mairie en temps réel, suivez-nous sur
+                    <a href="https://app.panneaupocket.com/ville/106279647-luglon-40630" target="_blank" rel="noopener noreferrer">Panneau Pocket</a>.
                 </p>
             </div>
         </section>
 
-        <!-- ============================================================
-             RÉSERVATION DES REPAS — MASQUÉ HORS SAISON
-
-             Ce bandeau porte l'attribut `hidden` : il ne s'affiche PAS tant
-             que les réservations sont fermées. Hors saison, il ne disait
-             qu'une chose — « c'est fermé » — tout en occupant la place la
-             plus visible de la page, juste avant le programme archivé, qui
-             est le vrai contenu. Un appel à l'action périmé passait ainsi
-             devant l'information utile.
-
-             IL SE RÉOUVRE TOUT SEUL. reservation-gate.js le démasque
-             pendant la fenêtre de réservation, exactement comme il ouvre le
-             formulaire de la page /reservation/. Il n'y a donc RIEN à faire
-             ici l'an prochain : modifiez les deux dates dans
-             reservation-gate.js, ce bandeau revient de lui-même, au-dessus
-             du programme, là où il a du sens.
-
-             Ne retirez pas `hidden` à la main : la panne doit fermer, pas
-             ouvrir (voir le commentaire en tête de reservation-gate.js).
-
-             Le texte est rédigé à l'état OUVERT, puisque c'est le seul état
-             dans lequel il est visible.
-             ============================================================ -->
-        <section class="page-section" id="reservation-promo" hidden>
-            <div class="panel">
-                <div class="section-head section-head--center" data-reveal>
-                    <p class="kicker">Repas du vendredi et du samedi</p>
-                    <h2>Réservez vos places</h2>
-                    <p>
-                        Les réservations sont <strong>ouvertes</strong>. Les repas se
-                        réservent en ligne, en quelques minutes.
-                    </p>
-                    <div class="cta-row" style="justify-content:center">
-                        <a class="btn btn--primary" href="/reservation/">Réserver un repas</a>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- ============================================================
-             ARCHIVE : PROGRAMME DE L'ÉDITION 2026
-             Conservé tel quel, à titre d'archive. Les boutons
-             « Ajouter au calendrier » ont été retirés : ils
-             produisaient des fichiers .ics pour des dates passées.
+             ARCHIVE : Anciens points de situation
              ============================================================ -->
-        <section class="page-section has-decor" id="programme-2026">
+        <section class="page-section has-decor" id="points-situation-archive">
             <!-- DÉCOR VÉGÉTAL — voir la section 19 de styles.css. Purement
                  ornemental : aria-hidden, pointer-events:none, aucun JS, et rien
                  ne s'affiche en dessous de 1440px. -->
@@ -206,102 +151,80 @@
             <span class="decor-vine decor-vine--right" aria-hidden="true"><span class="decor-vine__ink"></span></span>
             <div class="section-head" data-reveal>
                 <p class="kicker">Archive</p>
-                <h2>Le programme de l'édition 2026</h2>
-                <p>Du jeudi 30 juillet au dimanche 2 août 2026.</p>
+                <h2>Points de situation précédents</h2>
             </div>
 
             <div class="rail day-rail" id="day-rail" tabindex="0"
-                 role="group" aria-label="Programme jour par jour de l'édition 2026">
+                 role="group" aria-label="Historique des points de situation de l'incendie">
 
                 <article class="day-card" data-reveal style="--i:0">
-                    <p class="day-card__kicker">Jour 1</p>
-                    <h3 class="day-card__title">Jeudi 30 juillet</h3>
+                    <p class="day-card__kicker">Point n°1</p>
+                    <h3 class="day-card__title">Vendredi 14 août</h3>
                     <ul class="day-card__list">
                         <li class="activity">
-                            <span class="activity-time">20h30</span>
-                            <span><strong>LOTO BINGO</strong> (nombreux lots)</span>
+                            <span class="activity-time">19h00</span>
+                            <span><strong>PROPAGATION ACTIVE</strong> — 1 300 ha parcourus</span>
                         </li>
-                        <li class="activity activity--note">Buvette, sandwichs et frites sur place.</li>
+                        <li class="activity">
+                            <span class="activity-time">20h00</span>
+                            <span>Saute de feu au sud-est du bourg et maintien du COD en préfecture.</span>
+                        </li>
+                        <li class="activity activity--note">
+                            RD 14 et RD 327 coupées à la circulation. Évacuation préventive de la population vers la salle des fêtes de Sabres.
+                        </li>
                     </ul>
                 </article>
 
                 <article class="day-card" data-reveal style="--i:1">
-                    <p class="day-card__kicker">Jour 2</p>
-                    <h3 class="day-card__title">Vendredi 31 juillet</h3>
+                    <p class="day-card__kicker">Point n°2</p>
+                    <h3 class="day-card__title">Samedi 15 août</h3>
                     <ul class="day-card__list">
                         <li class="activity">
-                            <span class="activity-time">19h30</span>
-                            <span><strong>OUVERTURE DES FÊTES</strong> — remise des clés par le Maire</span>
+                            <span class="activity-time">20h30</span>
+                            <span><strong>MOBILISATION GÉNÉRALE</strong> — 1 600 ha atteints</span>
                         </li>
                         <li class="activity">
-                            <span class="activity-time">20h00</span>
-                            <span>BANDA <em>La Juventud</em></span>
-                        </li>
-                        <li class="activity">
-                            <span class="activity-time">20h00</span>
-                            <span><strong>REPAS D'OUVERTURE</strong> — Adulte 14 € | Enfant (-12 ans) 7 €</span>
+                            <span class="activity-time">21h00</span>
+                            <span>550 sapeurs-pompiers engagés, appui d'avions bombardiers d'eau et d'hélicoptères.</span>
                         </li>
                         <li class="activity activity--note">
-                            Macédoine et terrine de saumon, araignées de porc marinées aux
-                            épices txistorra et frites, flan gourmand, café.
+                            Deux zones distinctes sous surveillance active. Interdiction formelle de circuler sur le secteur.
                         </li>
                     </ul>
                 </article>
 
                 <article class="day-card" data-reveal style="--i:2">
-                    <p class="day-card__kicker">Jour 3</p>
-                    <h3 class="day-card__title">Samedi 1<sup>er</sup> août</h3>
+                    <p class="day-card__kicker">Point n°3</p>
+                    <h3 class="day-card__title">Lundi 17 août</h3>
                     <ul class="day-card__list">
                         <li class="activity">
-                            <span class="activity-time">8h30</span>
-                            <span><strong>BALL-TRAP</strong>, planche au mérite — Menon</span>
+                            <span class="activity-time">09h00</span>
+                            <span><strong>FEU DÉCLARÉ FIXÉ</strong> — bilan à 1 700 ha</span>
                         </li>
                         <li class="activity">
-                            <span class="activity-time">16h30</span>
-                            <span><strong>COURSE LANDAISE</strong> (Ganaderia Maynus) au stade — Adulte 10 € | -18 ans 5 € | gratuit -12 ans</span>
-                        </li>
-                        <li class="activity">
-                            <span class="activity-time">20h00</span>
-                            <span><strong>REPAS DU COMITÉ</strong> — Adulte 16 € | Enfant (-12 ans) 8 €</span>
-                        </li>
-                        <li class="activity">
-                            <span class="activity-time">20h30</span>
-                            <span>Animation musicale avec <em>Les Tulipes</em></span>
+                            <span class="activity-time">11h30</span>
+                            <span>Autorisation de retour progressif des riverains dans les zones sécurisées.</span>
                         </li>
                         <li class="activity activity--note">
-                            Assiette luglonaise, entrecôte au brasero et sa sauce maison
-                            avec frites, pastis landais et crème anglaise, café.
+                            Feu fixé mais non éteint. Traitement des lisières, fumerolles et noyage des souches incandescentes par le SDIS et la DFCI.
                         </li>
                     </ul>
                 </article>
 
                 <article class="day-card" data-reveal style="--i:3">
-                    <p class="day-card__kicker">Jour 4</p>
-                    <h3 class="day-card__title">Dimanche 2 août</h3>
+                    <p class="day-card__kicker">Point n°4</p>
+                    <h3 class="day-card__title">Samedi 22 août</h3>
                     <ul class="day-card__list">
                         <li class="activity">
-                            <span class="activity-time">11h00</span>
-                            <span><strong>MESSE EN MUSIQUE</strong> — sonneur de trompe et accordéon</span>
+                            <span class="activity-time">16h57</span>
+                            <span><strong>ARRÊTÉ PRÉFECTORAL</strong> — Massif forestier</span>
                         </li>
                         <li class="activity">
-                            <span class="activity-time">12h00</span>
-                            <span><strong>VIN D'HONNEUR</strong> offert par la Mairie</span>
+                            <span class="activity-time">17h00</span>
+                            <span>Interdiction totale d'accès dans l'ensemble des zones sinistrées.</span>
                         </li>
-                        <li class="activity">
-                            <span class="activity-time">14h30</span>
-                            <span><strong>CONCOURS DE PÉTANQUE</strong> au stade (inscription sur place)</span>
-                        </li>
-                        <li class="activity">
-                            <span class="activity-time">20h00</span>
-                            <span><strong>SOIRÉE TAPAS</strong> — 7 €</span>
-                        </li>
-                        <li class="activity">
-                            <span class="activity-time">20h00</span>
-                            <span>Animation musicale avec <em>Soul'r Rock 82</em></span>
-                        </li>
-                        <li class="activity">
-                            <span class="activity-time">23h00</span>
-                            <span><strong>FEU D'ARTIFICE</strong> (selon météo)</span>
+                        <li class="activity activity--note">
+                            Risque critique de chutes d'arbres calcinés et reprise en sous-sol. Accès réservé aux services de secours et d'intervention habilités.
                         </li>
                     </ul>
                 </article>
@@ -310,7 +233,7 @@
             <!-- Points remplis par rail-dots.js. Pas d'aria-hidden : ce sont de
                  vrais boutons focalisables, les masquer aux lecteurs d'écran
                  les rendrait atteignables au clavier mais silencieux. -->
-            <div class="rail-dots" id="day-dots" role="group" aria-label="Aller à une journée"></div>
+            <div class="rail-dots" id="day-dots" role="group" aria-label="Naviguer entre les points de situation"></div>
         </section>
     </main>
 
