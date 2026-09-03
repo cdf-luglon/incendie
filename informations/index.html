@@ -100,141 +100,262 @@
         </picture>
     </div>
 
-    <main>
+<main>
 
         <!-- ============================================================
-             PROCHAINE ÉDITION
+             DERNIER COMMUNIQUÉ / INFORMATION PRINCIPALE (EN VEDETTE)
              ============================================================ -->
         <section class="page-section has-decor">
-            <!-- DÉCOR VÉGÉTAL — voir la section 19 de styles.css. Purement
-                 ornemental : aria-hidden, pointer-events:none, aucun JS, et rien
-                 ne s'affiche en dessous de 1440px. -->
             <span class="decor-vine decor-vine--left" aria-hidden="true"><span class="decor-vine__ink"></span></span>
             <span class="decor-vine decor-vine--right" aria-hidden="true"><span class="decor-vine__ink"></span></span>
+
             <div class="section-head" data-reveal>
-                <p class="kicker">Incendie de Luglon</p>
-                <h2>Point de situation</h2>
+                <p class="kicker">Finances publiques & Sinistre</p>
+                <h2>Mesures de soutien immédiates</h2>
             </div>
-            <!-- Chapô + pastilles plutôt que deux paragraphes pleine largeur :
-                 l'énumération des animations se balaye du regard au lieu de se
-                 lire, et le corps restant tient en trois lignes. -->
+
             <p class="lead lead--rule" data-reveal>
-                L'incendie de Luglon est maîtrisé, mais l'accès forestier reste interdit au public par arrêté.
+                Taxes foncières, dégrèvements et accompagnement d'urgence pour les habitants et propriétaires impactés.[cite: 11]
             </p>
 
             <div class="prose" data-reveal>
-                <p>La situation sur le massif forestier de la commune de Luglon reste stabilisée.</p>
-                <p>Après l'incendie du mois d'août, les opérations d'extinction <b>active</b> des pompiers sont terminées, mais le secteur 
-                    reste sous vigilance des services de secours pour surveiller les fumerolles et les souches incandescentes.</p>
-                </p>Conformément à l'arrêté préfectoral pris le 22 août, l'accès aux forêts incendiées est strictement interdit à 
-                    toute personne non autorisée. Les risques de chutes d'arbres fragilisés et de reprise de feu ne sont pas négigeables.</p>
-                </p>Les RD 327 et RD 14 sont ouvertes, mais les pistes et chemins forestiers menant aux forêts sinistrées sont 
-                    fermés à la circulation.</p>
-                </p>Les habitants évacués ont tous regagné leur logement, et le dispositif de crise en préfecture a été levé.</p>
-                </p>Gilles Clavreul, préfet des Landes, rappelle avec fermeté que le non-respect des interdictions d'accès expose 
-                    à des sanctions et compromet la sécurité des équipes toujours mobilisées sur place. Il est demandé à la population
-                    d'éviter l'ensemble du périmètre sinistré.</p>
+                <p>À la suite des dégâts causés par les incendies, la Direction générale des Finances publiques (DGFIP) et la préfecture des Landes déploient un dispositif exceptionnel pour simplifier les démarches des sinistrés[cite: 11].</p>
+                
+                <p><strong>Biens totalement détruits :</strong> un avis de taxe foncière 2026 sera tout de même envoyé prochainement car les avis étaient déjà imprimés avant l'événement[cite: 11]. <b>Aucune démarche n'est nécessaire de votre part</b> : un dégrèvement d'office à 100 % est appliqué par les services fiscaux, et un avis rectificatif vous sera adressé courant septembre 2026[cite: 11]. Les bases pour 2027 seront ajustées automatiquement[cite: 11].</p>
+                
+                <p><strong>Biens partiellement détruits (dépendance, garage, etc.) :</strong> des agents de l'administration fiscale se rendent directement sur site dès les premiers jours de septembre pour constater les dégradations et déterminer le montant du dégrèvement[cite: 11]. Une ligne directe dédiée a été mise en place au <b>06 26 46 62 28</b>[cite: 11].</p>
+                
+                <p><strong>Difficultés de paiement ou demandes de report :</strong> des délais, reports ou remises gracieuses peuvent être accordés[cite: 11]. Vous pouvez contacter votre centre via la messagerie sécurisée sur <a href="https://www.impots.gouv.fr" target="_blank" rel="noopener noreferrer">impots.gouv.fr</a> (formulaire « Difficulté de paiement »), appeler le <b>0 809 401 401</b> ou vous rendre dans l'espace France Services le plus proche[cite: 11].</p>
+
+                <div class="cta-row" style="margin-top: var(--space-m); margin-bottom: var(--space-m);">
+                    <a class="btn btn--primary" href="/docs/communiques/2026-08-27_mesures-fiscales.pdf" download>
+                        Télécharger le communiqué DGFIP (PDF)
+                    </a>
+                </div>
+
                 <p>
-                    Pour suivre les informations publiées par la Mairie en temps réel, suivez-nous sur
-                    <a href="https://app.panneaupocket.com/ville/106279647-luglon-40630" target="_blank" rel="noopener noreferrer">Panneau Pocket</a>.
+                    Pour suivre les alertes et informations municipales en temps réel, consultez également 
+                    <a href="https://app.panneaupocket.com/ville/106279647-luglon-40630" target="_blank" rel="noopener noreferrer">PanneauPocket Luglon</a>.
                 </p>
             </div>
         </section>
 
 
         <!-- ============================================================
-             ARCHIVE : Anciens points de situation
+             ARCHIVES : Points de situation précédents (ordre DESC)
              ============================================================ -->
         <section class="page-section has-decor" id="points-situation-archive">
-            <!-- DÉCOR VÉGÉTAL — voir la section 19 de styles.css. Purement
-                 ornemental : aria-hidden, pointer-events:none, aucun JS, et rien
-                 ne s'affiche en dessous de 1440px. -->
             <span class="decor-vine decor-vine--left" aria-hidden="true"><span class="decor-vine__ink"></span></span>
             <span class="decor-vine decor-vine--right" aria-hidden="true"><span class="decor-vine__ink"></span></span>
+
             <div class="section-head" data-reveal>
-                <p class="kicker">Archive</p>
+                <p class="kicker">Archives</p>
                 <h2>Points de situation précédents</h2>
             </div>
 
             <div class="rail day-rail" id="day-rail" tabindex="0"
                  role="group" aria-label="Historique des points de situation de l'incendie">
 
+                <!-- Point n°11 (21:08.pdf) -->
                 <article class="day-card" data-reveal style="--i:0">
-                    <p class="day-card__kicker">Point n°1</p>
-                    <h3 class="day-card__title">Vendredi 14 août</h3>
+                    <p class="day-card__kicker">Point n°11</p>
+                    <h3 class="day-card__title">Vendredi 21 août</h3>
+                    <ul class="day-card__list">
+                        <li class="activity">
+                            <span class="activity-time">Journée</span>
+                            <span><strong>FEU DÉCLARÉ MAÎTRISÉ</strong> — Vigilance maintenue[cite: 12]</span>
+                        </li>
+                        <li class="activity activity--note">
+                            Fin de propagation après 8 jours de lutte[cite: 12]. Accès aux massifs interdit face aux chutes d'arbres et fumerolles persistantes[cite: 12].
+                        </li>
+                    </ul>
+                    <div class="day-card__foot">
+                        <a class="event-card__link" href="/docs/communiques/2026-08-21_point-situation-11.pdf" download>Télécharger le communiqué</a>
+                    </div>
+                </article>
+
+                <!-- Point n°10 (19:08 19h15.pdf) -->
+                <article class="day-card" data-reveal style="--i:1">
+                    <p class="day-card__kicker">Point n°10</p>
+                    <h3 class="day-card__title">Mercredi 19 août · 19h15</h3>
+                    <ul class="day-card__list">
+                        <li class="activity">
+                            <span class="activity-time">20h00</span>
+                            <span><strong>RÉINTÉGRATION TOTALE</strong> — Routes rouvertes[cite: 10]</span>
+                        </li>
+                        <li class="activity activity--note">
+                            Retour de tous les évacués autorisé dès 20h[cite: 10]. Réouverture de la circulation[cite: 10]. Points chauds toujours sous veille[cite: 10].
+                        </li>
+                    </ul>
+                    <div class="day-card__foot">
+                        <a class="event-card__link" href="/docs/communiques/2026-08-19_point-situation-10.pdf" download>Télécharger le communiqué</a>
+                    </div>
+                </article>
+
+                <!-- Point n°9 (18:08 19h00.pdf) -->
+                <article class="day-card" data-reveal style="--i:2">
+                    <p class="day-card__kicker">Point n°9</p>
+                    <h3 class="day-card__title">Mardi 18 août · 19h00</h3>
                     <ul class="day-card__list">
                         <li class="activity">
                             <span class="activity-time">19h00</span>
-                            <span><strong>PROPAGATION ACTIVE</strong> — 1 300 ha parcourus</span>
-                        </li>
-                        <li class="activity">
-                            <span class="activity-time">20h00</span>
-                            <span>Saute de feu au sud-est du bourg et maintien du COD en préfecture.</span>
+                            <span><strong>ÉVOLUTION FAVORABLE</strong> — Sécurisation[cite: 9]</span>
                         </li>
                         <li class="activity activity--note">
-                            RD 14 et RD 327 coupées à la circulation. Évacuation préventive de la population vers la salle des fêtes de Sabres.
+                            Feu fixé[cite: 9]. Poursuite active du traitement des lisières et objectif de retour global fixé au lendemain soir[cite: 9].
                         </li>
                     </ul>
+                    <div class="day-card__foot">
+                        <a class="event-card__link" href="/docs/communiques/2026-08-18_point-situation-9.pdf" download>Télécharger le communiqué</a>
+                    </div>
                 </article>
 
-                <article class="day-card" data-reveal style="--i:1">
-                    <p class="day-card__kicker">Point n°2</p>
-                    <h3 class="day-card__title">Samedi 15 août</h3>
+                <!-- Point n°8 (17:08 18h30.pdf) -->
+                <article class="day-card" data-reveal style="--i:3">
+                    <p class="day-card__kicker">Point n°8</p>
+                    <h3 class="day-card__title">Lundi 17 août · 18h30</h3>
                     <ul class="day-card__list">
                         <li class="activity">
-                            <span class="activity-time">20h30</span>
-                            <span><strong>MOBILISATION GÉNÉRALE</strong> — 1 600 ha atteints</span>
-                        </li>
-                        <li class="activity">
-                            <span class="activity-time">21h00</span>
-                            <span>550 sapeurs-pompiers engagés, appui d'avions bombardiers d'eau et d'hélicoptères.</span>
+                            <span class="activity-time">18h30</span>
+                            <span><strong>SECTEURS BOISÉS FERMÉS</strong> — Vigilance[cite: 8]</span>
                         </li>
                         <li class="activity activity--note">
-                            Deux zones distinctes sous surveillance active. Interdiction formelle de circuler sur le secteur.
+                            Maintien des évacuations sur les zones à risque[cite: 8]. Déploiement de la cellule psychologique (CUMP) devant la mairie[cite: 8].
                         </li>
                     </ul>
+                    <div class="day-card__foot">
+                        <a class="event-card__link" href="/docs/communiques/2026-08-17_point-situation-8.pdf" download>Télécharger le communiqué</a>
+                    </div>
                 </article>
 
-                <article class="day-card" data-reveal style="--i:2">
-                    <p class="day-card__kicker">Point n°3</p>
-                    <h3 class="day-card__title">Lundi 17 août</h3>
+                <!-- Point n°7 (17:08 9h00.pdf) -->
+                <article class="day-card" data-reveal style="--i:0">
+                    <p class="day-card__kicker">Point n°7</p>
+                    <h3 class="day-card__title">Lundi 17 août · 09h00</h3>
+                    <ul class="day-card__list">
+                        <li class="activity">
+                            <span class="activity-time">10h00</span>
+                            <span><strong>INCENDIE FIXÉ</strong> — Retours partiels[cite: 7]</span>
+                        </li>
+                        <li class="activity activity--note">
+                            Réintégration de 250 habitants en zone verte sécurisée via la RD 834[cite: 7]. RD 14 et RD 327 maintenues coupées[cite: 7].
+                        </li>
+                    </ul>
+                    <div class="day-card__foot">
+                        <a class="event-card__link" href="/docs/communiques/2026-08-17_point-situation-7.pdf" download>Télécharger le communiqué</a>
+                    </div>
+                </article>
+
+                <!-- Point n°6 (16:08 9h00.pdf) -->
+                <article class="day-card" data-reveal style="--i:1">
+                    <p class="day-card__kicker">Point n°6</p>
+                    <h3 class="day-card__title">Dimanche 16 août · 09h00</h3>
                     <ul class="day-card__list">
                         <li class="activity">
                             <span class="activity-time">09h00</span>
-                            <span><strong>FEU DÉCLARÉ FIXÉ</strong> — bilan à 1 700 ha</span>
-                        </li>
-                        <li class="activity">
-                            <span class="activity-time">11h30</span>
-                            <span>Autorisation de retour progressif des riverains dans les zones sécurisées.</span>
+                            <span><strong>SURFACE RÉÉVALUÉE</strong> — 1 700 ha[cite: 6]</span>
                         </li>
                         <li class="activity activity--note">
-                            Feu fixé mais non éteint. Traitement des lisières, fumerolles et noyage des souches incandescentes par le SDIS et la DFCI.
+                            Nouveau bilan dressé par drone[cite: 6]. Aucune habitation détruite[cite: 6]. Traitement intensif des kilomètres de lisières[cite: 6].
                         </li>
                     </ul>
+                    <div class="day-card__foot">
+                        <a class="event-card__link" href="/docs/communiques/2026-08-16_point-situation-6.pdf" download>Télécharger le communiqué</a>
+                    </div>
                 </article>
 
-                <article class="day-card" data-reveal style="--i:3">
-                    <p class="day-card__kicker">Point n°4</p>
-                    <h3 class="day-card__title">Samedi 22 août</h3>
+                <!-- Point n°5 (15:08 20h30.pdf) -->
+                <article class="day-card" data-reveal style="--i:2">
+                    <p class="day-card__kicker">Point n°5</p>
+                    <h3 class="day-card__title">Samedi 15 août · 20h30</h3>
                     <ul class="day-card__list">
                         <li class="activity">
-                            <span class="activity-time">16h57</span>
-                            <span><strong>ARRÊTÉ PRÉFECTORAL</strong> — Massif forestier</span>
-                        </li>
-                        <li class="activity">
-                            <span class="activity-time">17h00</span>
-                            <span>Interdiction totale d'accès dans l'ensemble des zones sinistrées.</span>
+                            <span class="activity-time">20h30</span>
+                            <span><strong>NON FIXÉ</strong> — 22 reprises traitées[cite: 5]</span>
                         </li>
                         <li class="activity activity--note">
-                            Risque critique de chutes d'arbres calcinés et reprise en sous-sol. Accès réservé aux services de secours et d'intervention habilités.
+                            1 600 ha atteints[cite: 5]. Appui aérien lourd (hélicoptère Chinook CH-47D, Canadairs, Dash) et 550 pompiers au sol[cite: 5].
                         </li>
                     </ul>
+                    <div class="day-card__foot">
+                        <a class="event-card__link" href="/docs/communiques/2026-08-15_point-situation-5.pdf" download>Télécharger le communiqué</a>
+                    </div>
+                </article>
+
+                <!-- Point n°4 (15:08 9h00.pdf) -->
+                <article class="day-card" data-reveal style="--i:3">
+                    <p class="day-card__kicker">Point n°4</p>
+                    <h3 class="day-card__title">Samedi 15 août · 09h00</h3>
+                    <ul class="day-card__list">
+                        <li class="activity">
+                            <span class="activity-time">09h00</span>
+                            <span><strong>ÉVACUATION GAREIN</strong> — 1 580 ha[cite: 4]</span>
+                        </li>
+                        <li class="activity activity--note">
+                            Évacuation nocturne de l'ouest de Garein (650 évacués au total)[cite: 4]. Fermetures des axes RD 14, RD 327 et RD 834[cite: 4].
+                        </li>
+                    </ul>
+                    <div class="day-card__foot">
+                        <a class="event-card__link" href="/docs/communiques/2026-08-15_point-situation-4.pdf" download>Télécharger le communiqué</a>
+                    </div>
+                </article>
+
+                <!-- Point n°3 (14:08 18h00.pdf) -->
+                <article class="day-card" data-reveal style="--i:0">
+                    <p class="day-card__kicker">Point n°3</p>
+                    <h3 class="day-card__title">Vendredi 14 août · 19h00</h3>
+                    <ul class="day-card__list">
+                        <li class="activity">
+                            <span class="activity-time">19h00</span>
+                            <span><strong>DEUX FRONTS DISTINCTS</strong> — 1 300 ha[cite: 3]</span>
+                        </li>
+                        <li class="activity activity--note">
+                            Feu virulent entre Luglon et Garein[cite: 3]. Engagement du Chinook CH-47D[cite: 3]. Accueil des évacués à Sabres[cite: 3].
+                        </li>
+                    </ul>
+                    <div class="day-card__foot">
+                        <a class="event-card__link" href="/docs/communiques/2026-08-14_point-situation-3.pdf" download>Télécharger le communiqué</a>
+                    </div>
+                </article>
+
+                <!-- Point n°2 (14:08 8h30.pdf) -->
+                <article class="day-card" data-reveal style="--i:1">
+                    <p class="day-card__kicker">Point n°2</p>
+                    <h3 class="day-card__title">Vendredi 14 août · 08h30</h3>
+                    <ul class="day-card__list">
+                        <li class="activity">
+                            <span class="activity-time">08h30</span>
+                            <span><strong>SAUTE DE FEU</strong> — 1 100 ha parcourus[cite: 2]</span>
+                        </li>
+                        <li class="activity activity--note">
+                            Saute de 200 ha au sud-est[cite: 2]. Évacuation totale du village terminée dans la nuit (525 habitants pris en charge)[cite: 2].
+                        </li>
+                    </ul>
+                    <div class="day-card__foot">
+                        <a class="event-card__link" href="/docs/communiques/2026-08-14_point-situation-2.pdf" download>Télécharger le communiqué</a>
+                    </div>
+                </article>
+
+                <!-- Point n°1 (13:08 20h30.pdf) -->
+                <article class="day-card" data-reveal style="--i:2">
+                    <p class="day-card__kicker">Point n°1</p>
+                    <h3 class="day-card__title">Jeudi 13 août · 20h30</h3>
+                    <ul class="day-card__list">
+                        <li class="activity">
+                            <span class="activity-time">20h30</span>
+                            <span><strong>DÉPART DE FEU</strong> — Évacuation préventive[cite: 1]</span>
+                        </li>
+                        <li class="activity activity--note">
+                            Foyer à l'ouest du bourg (400 ha)[cite: 1]. 280 sapeurs-pompiers, 8 avions bombardiers d'eau engagés et COD activé[cite: 1].
+                        </li>
+                    </ul>
+                    <div class="day-card__foot">
+                        <a class="event-card__link" href="/docs/communiques/2026-08-13_point-situation-1.pdf" download>Télécharger le communiqué</a>
+                    </div>
                 </article>
 
             </div>
-            <!-- Points remplis par rail-dots.js. Pas d'aria-hidden : ce sont de
-                 vrais boutons focalisables, les masquer aux lecteurs d'écran
-                 les rendrait atteignables au clavier mais silencieux. -->
+
             <div class="rail-dots" id="day-dots" role="group" aria-label="Naviguer entre les points de situation"></div>
         </section>
     </main>
